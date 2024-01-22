@@ -101,6 +101,7 @@ fun Greeting(name: String) {
         fontWeight = FontWeight.Bold,
         fontFamily = FontFamily.Cursive,
         letterSpacing = 2.sp,
+
         maxLines = 2,
         textDecoration = TextDecoration.Underline,
         textAlign = TextAlign.Center
