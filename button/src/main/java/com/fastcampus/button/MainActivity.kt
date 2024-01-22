@@ -45,7 +45,7 @@ fun ButtonExample(onButtonClicked: () -> Unit) {
     //2. 아이콘을 텍스트 앞에 추가해보기
     //가로로 순서대로 표시되기에 아이콘을 앞에다가
     //imageVector 안에는 Icons.Filled에 있는 것을 활용
-    //contentDescription에는 원래는 이미지가 없을때를 대비해서 넣어야함
+    //contentDescription과 아이콘이 다른의미가 있다면 설정해줘야함
 //    Button(onClick = onButtonClicked) {
 //        Icon(imageVector = Icons.Filled.Send, contentDescription = null)
 //        Text(text = "send")
