@@ -17,3 +17,5 @@ rootProject.name = "jetpack_compose"
 include(":app")
 include(":button")
 include(":modifier")
+include(":surface")
+include(":box")

@@ -5,19 +5,31 @@
       <entry key="DefaultPreview">
         <State />
       </entry>
-      <entry key="GreetingPreview">
+      <entry key="DefaultPreview (1)">
         <State />
       </entry>
       <entry key="GreetingPreview (1)">
         <State />
       </entry>
+      <entry key="GreetingPreview (2)">
+        <State />
+      </entry>
+      <entry key="SurfacePreview">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="box">
         <State />
       </entry>
       <entry key="button">
         <State />
       </entry>
       <entry key="modifier">
+        <State />
+      </entry>
+      <entry key="surface">
         <State />
       </entry>
     </value>
