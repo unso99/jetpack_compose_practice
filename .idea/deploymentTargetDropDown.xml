@@ -8,13 +8,13 @@
       <entry key="BoxPreview">
         <State />
       </entry>
-      <entry key="DefaultPreview (1)">
-        <State />
-      </entry>
       <entry key="GreetingPreview">
         <State />
       </entry>
-      <entry key="SurfacePreview">
+      <entry key="GreetingPreview (1)">
+        <State />
+      </entry>
+      <entry key="RowPreview">
         <State />
       </entry>
       <entry key="app">
@@ -27,6 +27,9 @@
         <State />
       </entry>
       <entry key="modifier">
+        <State />
+      </entry>
+      <entry key="row">
         <State />
       </entry>
       <entry key="surface">
