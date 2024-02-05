@@ -26,6 +26,9 @@
       <entry key="button">
         <State />
       </entry>
+      <entry key="column">
+        <State />
+      </entry>
       <entry key="modifier">
         <State />
       </entry>
