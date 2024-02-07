@@ -8,7 +8,7 @@
       <entry key="BoxPreview">
         <State />
       </entry>
-      <entry key="GreetingPreview">
+      <entry key="BoxWithConstraintPreview">
         <State />
       </entry>
       <entry key="GreetingPreview (1)">
@@ -21,6 +21,9 @@
         <State />
       </entry>
       <entry key="box">
+        <State />
+      </entry>
+      <entry key="boxwithconstraints">
         <State />
       </entry>
       <entry key="button">

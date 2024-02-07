@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
@@ -63,7 +64,7 @@ fun RowEx() {
     //row에 horizontalArrangement에 Arrangement.Center를 설정
     //Start, End, SpaceAround, SpaceBetween, SpaceEvnely
 //    Row(
-//        horizontalArrangement= Arrangement.SpaceEvenly
+//        horizontalArrangement= Arrangement.End
 //        ,verticalAlignment = Alignment.Bottom
 //        ,modifier=Modifier.height(40.dp).width(200.dp)
 //    ) {
