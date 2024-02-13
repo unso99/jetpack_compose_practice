@@ -38,6 +38,9 @@
       <entry key="modifier">
         <State />
       </entry>
+      <entry key="networkimage">
+        <State />
+      </entry>
       <entry key="row">
         <State />
       </entry>

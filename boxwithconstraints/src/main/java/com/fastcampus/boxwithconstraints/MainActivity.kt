@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+//
 //@Composable
 //fun Outer() { //outer 하나에 inner가 연결되어 있는 구조 따라서 inner에 있는 내용이 outer에 들어간다고 생각하면 됨
 //    Column {
@@ -39,18 +39,18 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Outer() { //outer 하나에 inner가 연결되어 있는 구조 따라서 inner에 있는 내용이 outer에 들어간다고 생각하면 됨
     Column(
-        modifier = Modifier.width(150.dp)
+        modifier = Modifier.width(120.dp)
     ) {
         Inner(
             Modifier
-                .width(200.dp)
+                .widthIn(min = 100.dp, max= 150.dp)
                 .height(160.dp)
         )
-        Inner(
-            Modifier
-                .width(200.dp)
-                .height(160.dp)
-        )
+//        Inner(
+//            Modifier
+//                .width(200.dp)
+//                .height(160.dp)
+//        )
     }
 }
 //@Composable
@@ -62,7 +62,7 @@ fun Outer() { //outer 하나에 inner가 연결되어 있는 구조 따라서 in
 //}
 
 //1. Inner 인자로 modifier를 전달
-// 파라미터로 받은 modifier를 BoxWidthConstrains에 전달
+ //파라미터로 받은 modifier를 BoxWidthConstrains에 전달
 //@Composable
 //private fun Inner(modifier: Modifier = Modifier) {
 //    BoxWithConstraints(
@@ -80,7 +80,7 @@ private fun Inner(modifier: Modifier = Modifier) {
         modifier = modifier
     ) {//기본적으로 box와 비슷하지만 boxWithConstraintsScope가 있다 boxScope와는 다른형태 boxScope에 추가적으로
         // minWidth,minHeight, maxWidth, maxHeight, constraints의 기능 사용가능
-        if(maxHeight > 90.dp){
+        if(maxHeight > 100.dp){
             Text(
                 text = "여기 꽤 길군요!",
                 modifier = Modifier.align(Alignment.BottomCenter)
