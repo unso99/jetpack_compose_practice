@@ -29,6 +29,9 @@
       <entry key="button">
         <State />
       </entry>
+      <entry key="checkbox">
+        <State />
+      </entry>
       <entry key="column">
         <State />
       </entry>
